@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/d492bf8a9a.js" crossorigin="anonymous"></script>
+  </head>
+  <style type="text/css">
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    .container-fluid{
+      background:url('image/img1.jpg');
+      height: 615px;
+      background-repeat: no-repeat;
+      background-size:cover;
+
+    }
+    #input{
+     background: transparent;
+     outline: none;
+     border: none;
+    }
+    .search{
+      background:transparent;
+      margin-top: 20px;
+      margin-left: 70px;
+      width: 250px;
+      height: 30px;
+      border-radius: 5px;
+      text-align: center;
+      padding-top: 5px;
+      color: white;
+      border: solid 2px darkorange;
+    }
+    .list-inline{
+      padding-top: 25px;
+      text-transform: uppercase;
+    }
+    .list-inline a{
+      color: white;
+      padding-left: 50px;
+    }
+   
+   a i{
+      font-size: 20px; 
+      padding-top: 10px;
+      padding-left: 20px;
+      color: white;
+    }
+    a i:hover{
+      color: darkorange;
+    }
+    .body{
+      padding-top: 150px;
+    }
+    .text-capitalize{
+      font-size: 30px;
+      color: white;
+    }
+    .text-uppercase{
+      font-size: 30px;
+      color: darkorange;
+    }
+    .passage{
+      color: white;
+      line-height: 30px;
+    }
+    .join{
+      background: darkorange;
+      width: 90px;
+      height: 30px;
+      text-align: center;
+      padding-top: 8px;
+      border-radius: 10px;
+      color: black;
+      text-decoration: none;
+    }
+    .loginbox{
+      width: 250px;
+      height: 370px;
+      background: black;
+      margin-left:240px ;
+      border-radius: 8px;
+      text-align: center;
+      position: absolute;
+      color: white;
+     
+    }
+    .loginhere{
+      width: 180px;
+      height: 30px;
+      background: white;
+      padding-top:6px;
+      margin-top: 30px;
+      margin-left: 35px;
+      border-radius: 3px;
+      text-transform: capitalize;
+      font-size: 15px;
+      color: darkorange;
+    }
+    .logininput{
+      margin-top: 25px;
+      outline: none;
+      background: transparent;
+      border: none;
+      padding-right:50px;
+    }
+    .btn{
+      width:180px;
+      height:30px;
+      background:darkorange;
+      padding-top:6px;
+      margin-top:5px;
+      border-radius:3px;
+      text-transform:capitalize;
+      font-size: 15px;
+      color:white;
+      padding-right: 25px;
+    }
+    .btn:hover,.join:hover{
+      background: white;
+      color: darkorange;
+      font-size: 15px;
+      text-decoration: none;
+    }
+    .login a:hover{
+      text-decoration: none;
+      color: darkorange;
+      font-size: 15px;
+    }
+    .psgacc{
+      padding-top: 8px;
+    }
+    span{
+      color: darkorange;
+    }
+    .col-md-6{
+      padding-left: 70px;
+    }
+    .col-md-3 i {
+      font-size: 40px;
+      padding-top: -10px;
+      color: white;
+    }
+    li a:hover,a:active,a:focus{
+      color: darkorange;
+      text-decoration: none;
+      }
+      .ajoin:hover{
+        text-decoration: none;
+      }
+      .inpinp{
+        border-bottom:solid 2px darkorange;
+        width: 220px;
+        margin-left: 20px;
+      }
+
+  </style>
+  <body>
+    <div class="container-fluid">
+      <div id="header">
+      <div class="col-md-3">
+        <i class="fa-brands fa-apple"></i>
+      </div>
+      <div class="col-md-5">
+        <ul class="list-inline" >
+          <li><a href="#" title="home">home</a> </li>
+          <li><a href="#" title="about">about</a> </li>
+          <li><a href="#" title="service">service</a> </li>
+          <li><a href="#" title="contact">contact</a> </li>
+        </ul>
+      </div>
+      <div class="col-md-4">
+        <div class="search">
+        <input type="search" name="search" id="input" placeholder="type to search">
+        search
+      </div>
+    </div>
+    </div>
+    <div class="body">
+      <div class="row">
+       <div class="col-md-6">
+          <p class="text-capitalize">web design &</p>
+          <p class="text-uppercase">development</p>
+          <p class="text-capitalize">course</p>
+          <p class="passage">web design is a specialisation of the design stream.they also use HTML.<br>CSS,WYSIWYG editing software,mark up validators etc..<br>
+          to create design elements.</p></br>
+          <a href="#" class="ajoin"><div class="join">JOIN US</div></a>
+       </div>
+     <div class="col-md-6">
+          <form action="" method="post" class="loginbox">
+            <div class="loginhere"><b>login here</b> </div>
+           <div class="inpinp"><input class="logininput" type="mail" name="mail" placeholder="Enter Email Here"></div><br>
+            <div class="inpinp"><input class="logininput" type="password" name="password" placeholder="Enter Password Here"></div><br>
+           <a href="#"  class="btn"><b>login</b></a>
+            <p class="psgacc">Don't have an account?</p>
+            <span>sign up</span> here<br>
+            log in with
+            <br>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-google"></i></a>
+            <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+  </body>
+</html>
